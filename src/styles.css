@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Nunito', sans-serif;
+}
+body {
+  margin: 0;
+  font-size: 18px;
+}
+.container {
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  background: #F0805B;
+  padding: 1em;
+}
+nav {
+
+
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+li a {
+  padding: 1em;
+}
+nav ul li a:hover {
+  background: rgb(238, 110, 67);
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+header a .logo {
+  font-weight: bold;
+  flex-basis: 100%;
+  text-align: right;
+}
+
+
