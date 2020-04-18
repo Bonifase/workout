@@ -1,39 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.css";
-
+:root {
+  --main-color: #F0805B;
+  --primary-color: #A9C842;
+  --secondary-color: #664696;
+}
 body {
   margin: auto;
   font-size: 18px;
   font-family: 'Nunito', sans-serif !important;
 }
-
-nav {
-  background: #F0805B;
-  padding: 1em;
-}
-nav {
-
-
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  margin-left: auto;
-}
-li a {
-  padding: 1em;
-}
-nav ul li a:hover {
-  background: rgb(238, 110, 67);
-  text-decoration: none;
-  color: white;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-}
-a .logo {
-  font-weight: bold;
-}
-
-
