@@ -1,0 +1,29 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+:root {
+  --main-color: #F0805B;
+  --primary-color: #A9C842;
+  --secondary-color: #664696;
+  --main-hover: rgb(211, 88, 47);
+}
+
+body {
+  margin: auto;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4:hover {
+  color: var(--main-hover);
+}

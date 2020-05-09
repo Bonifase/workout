@@ -1,0 +1,26 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left: auto;
+}
+li a {
+  padding: 1em;
+}
+.primary {
+  background: var(--main-color);
+  padding: 1em;
+}
+nav ul li a:hover {
+  background: var(--main-hover);
+  text-decoration: none;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+a .logo {
+  font-weight: bold;
+}
+
